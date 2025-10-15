@@ -1,0 +1,129 @@
+:root {
+  --primary: #0bc5ea;
+  --accent: #f97316;
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --text: #e2e8f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top left, #0f172a, #020617);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(30, 41, 59, 0.8);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+input {
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #0f172a;
+}
+
+.btn-primary:hover {
+  background: #06b6d4;
+}
+
+.btn-wallet {
+  background: var(--accent);
+  color: white;
+  margin-top: 1rem;
+}
+
+.btn-wallet:hover {
+  background: #ea580c;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem; /* tambahkan jarak antar elemen */
+}
+
+.forgot {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  text-decoration: none;
+  margin-left: 0.5rem; /* beri jarak dari tombol */
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+
+.divider {
+  text-align: center;
+  color: #64748b;
+  margin-top: 1.5rem;
+}
+
+.status {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
